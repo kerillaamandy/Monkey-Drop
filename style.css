@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#game {
+  width: 500px;
+  height: 810px;
+  border: 1px solid black;
+  background-image: url(./background.jpg);
+  margin: auto;
+}
+#character {
+  width: 25px;
+  height: 70px;
+  background-image: url(./monkey.gif);
+  position: relative;
+  top: 440px;
+  left: 190px;
+  z-index: 1000000;
+  background-size: 66px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+}
+
+#startBtn {
+  position: absolute;
+  top: 757px;
+  left: 628px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #2ecc71;
+}
+
+.block {
+  width: 500px;
+  height: 25px;
+  background-color: #9b59b6;
+  position: relative;
+  top: 100px;
+  margin-top: -25px;
+}
+.hole {
+  width: 50px;
+  height: 25px;
+  background-color: #2ecc71;
+  position: relative;
+  top: 100px;
+  margin-top: -25px;
+}
